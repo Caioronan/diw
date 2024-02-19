@@ -1,0 +1,229 @@
+/* Base font-family for the site */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+  background-color: #6738f5;
+}
+
+.card-overview {
+  max-height: 40px;
+}
+
+.full {
+  background-color: rgba(158, 154, 154);
+  margin: 30px 10% 10px 10% !important;
+}
+
+.logo {
+  width: 90px;
+  margin: 20px;
+}
+
+.header nav {
+  margin-top: 50px;
+}
+
+.header nav a {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.header nav a:hover {
+  color: #0a0a0a;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.search {
+  padding-top: 50px;
+}
+
+main {
+  margin-top: 20px;
+}
+
+.lançamentos {
+  background-color: rgb(233, 233, 233);
+  margin-bottom: 20px;
+}
+
+.lançamentos iframe {
+  width: 100%;
+}
+
+.titulo {
+  font-size: x-large;
+  font-weight: bolder;
+  color: #6738f5;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.titulo-2 {
+  font-size: x-large;
+  font-weight: bolder;
+  color: #6738f5;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+.titulovideo {
+  font-size: x-large;
+  font-weight: bolder;
+  color: #6738f5;
+  text-align: left;
+}
+
+.texto {
+  text-align: justify;
+  margin-right: 40px;
+  font-size: small;
+}
+
+.info {
+  font-size: small;
+}
+
+.info1 {
+  color: #6738f5;
+  font-weight: bolder;
+  margin-left: 7px;
+  font-size: small;
+}
+
+.avaliacao {
+  color: rgb(255, 221, 0);
+  font-size: medium;
+}
+
+.destaques {
+  margin-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.destaques img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.novas_avaliações img {
+  vertical-align: top;
+  width: 100px;
+}
+
+.novas_avaliações {
+  margin-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.nome {
+  font-size: large;
+  font-weight: bold;
+  color: #6738f5;
+}
+
+.tag {
+  font-size: x-small;
+  color: #6738f5;
+  border: solid 1px;
+  border-color: #6738f5;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.entrevistas {
+  margin-top: 20px;
+  background-color: rgb(158, 154, 154);
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+}
+
+.entrevistas_e_mackingof iframe {
+  width: 100%;
+}
+
+.e {
+  margin-bottom: 20px;
+}
+
+.novidades {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.materia {
+  border-bottom: solid 1px;
+  border-color: #6738f5;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.materiaend {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.materiaimg {
+  width: 100%;
+}
+
+.soc {
+  color: #6738f5;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.footer {
+  padding: 20px;
+  margin: 20px;
+  background-color: #6738f5;
+  text-align: center;
+  color: white;
+}
+
+.logof {
+  width: 20px;
+}
+
+.pucminas {
+  font-weight: bold;
+  color: white;
+}
+
+/*
+Breakpoint telas pequenas
+*/
+@media (max-width: 700px) {
+  .destaques,
+  .novas_avaliações,
+  .entrevistas_e_mackingof,
+  .novidades,
+  .menu_sobre {
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+  }
+
+  .footer {
+    font-size: x-small;
+  }
+}
+
+/*
+Breakpoint intervalo específico
+*/
+@media (min-width: 990px) and (max-width: 1199px) {
+  .lançamentos iframe,
+  .novas_avaliações img,
+  .entrevistas_e_mackingof iframe {
+    width: 100%;
+  }
+}
